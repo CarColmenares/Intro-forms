@@ -1,0 +1,93 @@
+body{
+    background: #eeeeee
+    ;
+    display: flexbox;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background: #1e83c0;
+    display: flexbox;
+    align-items: center;
+    padding: 15px 0px 15px 250px ;
+}
+
+.main-page{
+background-color: #f9f9f8;
+padding: 80px 0px 170px 0px;
+display: flex;
+justify-content: center;
+}
+
+section{
+    background-color: white;
+    border: 2px solid #f0efef;
+    border-radius: 9px;
+    width: 25em;
+    height: 10em;
+    padding: 20px
+}
+
+.tituform{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituform span{
+    font-size: 1.25em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.tituform a{
+    color: rgba(202, 198, 198, 0.89);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.acceso input{
+    font-family: 'Open Sans', sans-serif;
+    height: 36px;
+    width: 23.5em;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    background: rgb(209, 207, 207);
+    }
+
+.instruc{
+    padding: 8px 0px 8px 1px;
+    color:  rgba(202, 198, 198, 0.89);
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.boton input{
+    font-family: 'Open Sans', sans-serif;
+    height: 36px;
+    width: 23.5em;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    background: #3ea1c1 
+}
+.terminos{
+    padding: 40px 100px 30px 200px;
+}
+.terminos span{
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.terminos a{
+    background: #eee;
+    color: #556370;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px
+}
